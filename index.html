@@ -3,20 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" />
     <title>E-commerce Product Page</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/index.ts"></script>
-    <!-- Collections Men Women About Contact Sneaker Company Fall Limited Edition
+    <div class="container">
+      <header>
+        <div class="left">
+          <img src="" alt="" />
+          <nav>
+            <ul>
+              <li><a href="#">Collections</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="right">
+          <img src="images/icon-cart.svg" alt="" />
+          <img src="images/image-avatar.png" alt="" />
+        </div>
+      </header>
+      <main>
+        <div>Lightbox Component</div>
+        <div>Product Info & Add To Cart</div>
+      </main>
+    </div>
+    <!--  Sneaker Company Fall Limited Edition
     Sneakers These low-profile sneakers are your perfect casual wear companion.
     Featuring a durable rubber outer sole, they’ll withstand everything the
     weather can offer. $125.00 50% $250.00 0 Add to cart -->
+
+    <!-- SUPER IMPORTANT TO DECLARE TYPE AS MODULE -->
+    <script type="module" src="/src/index.ts"></script>
   </body>
 </html>
