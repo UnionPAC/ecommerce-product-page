@@ -1,1 +1,40 @@
-@use "./components";
+@use "./colours" as *;
+@use "./header";
+
+/* Font Stuff */
+$fw-bold: 700;
+$fw-regular: 400;
+
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: $fw-regular;
+  background-color: $white;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Main */
+
+main {
+  margin-top: 3rem;
+}
